@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cantarellregular';
+    src: url('../fonts/cantarell-regular-webfont.woff2') format('woff2'),
+         url('../fonts/cantarell-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+	background-color: antiquewhite;
+}
+
+#page-wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+img {
+	margin: auto;
+}
+
+h1,h2,h3 {
+	font-family: 'montserratregular', serif;
+	font-style: normal;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+p {
+	font-family: 'cantarellregular', serif;
+	font-style: normal;
+	line-height: 2em;
+	padding: 1%;	
+}
+
+.gallery {
+	margin: auto;
+	padding: 0;
+}
+
+.gallery img {
+	border: 1px solid black;
+}
+
+.steve,.geoffery {
+	text-align: center;
+	float: left;
+	width: 48%;
+	padding: 0;
+	margin: 1%;
+}
+
+.larry,.martha {
+	text-align: center;
+	float: right;
+	width: 48%;
+	padding: 0;
+	margin: 1%;
+}
+
+.para1-wrapper,.para2-wrapper {
+	float: left;
+	width: 50%;
+}
+
+.para3-wrapper,.para4-wrapper {
+	float: right;
+	width: 50%;
+}
+
+.clear {
+	clear: both; 
+}
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  margin-top: 20px;
+  display: inline-block;
+  width: 100%;
+}
+footer p {
+	margin-top: 0;
+	padding-top: 0;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 50x;
+  padding: 1%;
+}
